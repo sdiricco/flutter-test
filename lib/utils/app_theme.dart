@@ -28,12 +28,10 @@ class AppTheme {
       ),
       
       // Configurazione Card
-      cardTheme: CardTheme(
+      cardTheme: const CardThemeData(
         elevation: 2,
         shadowColor: Colors.black12,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
+        shape: RoundedRectangleBorder(),
         margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       ),
       
